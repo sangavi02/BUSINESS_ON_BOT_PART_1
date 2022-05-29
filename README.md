@@ -15,7 +15,7 @@ I created a REST service that can fetch bank details , using the data given in t
 2. Search API to return possible matches across all columns and all rows, ordered by IFSC code (ascending order) with limit and offset.
 ### Endpoint:
 > /api/search?q=<>
-## Request URL :
+### Request URL :
 > /api/search?q=Mumbai&limit=2&offset=1
 ### Success Response :
 >{"branches": [{"ifsc": "ABHY0065002","bank_id": "60","branch": "ABHYUDAYA NAGAR","address": "ABHYUDAYA EDUCATION SOCIETY, OPP. BLDG. NO. 18, ABHYUDAYA NAGAR, KALACHOWKY, MUMBAI - 400033","city": "MUMBAI","district": "GREATER MUMBAI",      "state": "MAHARASHTRA"},{"ifsc": "ABHY0065003","bank_id": "60","branch": "BAIL BAZAR","address": "KMSPM'S SCHOOL, WADIA ESTATE, BAIL BAZAR-KURLA(W), MUMBAI-400070","city": "MUMBAI","district": "GREATER MUMBAI","state": "MAHARASHTRA"}]}
