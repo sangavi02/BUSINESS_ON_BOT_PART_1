@@ -2,7 +2,7 @@
 
 I created a REST service that can fetch bank details , using the data given in the API’s query parameters and also used the .csv file given The service is written in NodeJS. Then I used the Postman API Platform to send requests and recieved the response in JSON format Finally , deployed it on Heroku .
 
-> 1.Branch API to return possible matches based on the branch name ordered by IFSC code (ascending order) with limit and offset.
+ 1.Branch API to return possible matches based on the branch name ordered by IFSC code (ascending order) with limit and offset.
 Endpoint:
 > /api/branch?q=<>
 REQUEST URL :
